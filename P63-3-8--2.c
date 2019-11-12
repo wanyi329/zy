@@ -16,8 +16,9 @@ int main (void)
         printf ("Enter choice:\n");
         scanf ("%d",&choice);
 
-        if (choice==0)
+        if (choice==0 )
              break;
+        
         
         switch (choice){
             case 1: price=3.00;
@@ -31,6 +32,11 @@ int main (void)
             default:price=0.0;
                     break;
         }
-
+    
+        printf ("price is %.2lf\n",price);
+    }
         return 0;
+
+
+        
 }
