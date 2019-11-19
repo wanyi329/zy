@@ -10,7 +10,7 @@ int main (void)
 
     m=m*i;
     n=1.0/m;
-    e=e+m;
+    e=e+n;
     i++;   
    
     } 
