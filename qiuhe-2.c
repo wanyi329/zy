@@ -3,7 +3,7 @@ int main (void)
 
 {
     int i ;
-    double e=1 ,m=1,n;
+    double e=1 ,m=1,n=1;
   
     i=1;
     while (n>1e-5)
